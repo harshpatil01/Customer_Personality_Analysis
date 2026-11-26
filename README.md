@@ -93,3 +93,7 @@ streamlit run app.py
 	•	Clustering models provide actionable customer segmentation.
  
 	•	The Streamlit app makes these insights accessible and interactive.
+
+## License
+
+Code is released under the [MIT License](LICENSE). Datasets keep their original source licences.
