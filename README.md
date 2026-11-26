@@ -1,5 +1,7 @@
 # Customer Personality Analysis and Segmentation
 
+> **Context:** Data science internship project at Ai Variant (2024–2025), built on a public dataset. Shared with no confidential company data.
+
 ## Overview
 This project analyzes customer behavior and spending patterns to segment customers into distinct groups. By leveraging clustering algorithms, we uncover actionable insights to enable:
 - Targeted marketing campaigns
@@ -21,6 +23,8 @@ The project also includes an interactive Streamlit web app for dynamic explorati
   - Options for dimensionality reduction (PCA) and method selection.
 
 ## Dataset
+**Source:** the public [Customer Personality Analysis dataset on Kaggle](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis), saved here as `marketing_campaign1.xlsx`.
+
 The dataset contains customer demographics, purchasing habits, and engagement metrics. Key attributes include:
 1. **Demographics**: Age, marital status, income
 2. **Behavior**: Spending across various product categories (e.g., wine, meat, fruits)
@@ -66,20 +70,30 @@ The project is deployed as an interactive Streamlit app featuring:
 - **KMeans** clustering delivered well-defined clusters validated by evaluation metrics.
 
 ## How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
+```bash
+git clone https://github.com/harshpatil01/Customer_Personality_Analysis.git
+cd Customer_Personality_Analysis
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-2.	Install dependencies:
-    pip install -r requirements.txt
+## Project Files
+- `EDA.ipynb`: exploratory data analysis
+- `Model Building.ipynb`: clustering models and evaluation
+- `app.py`: Streamlit app
+- `marketing_campaign1.xlsx`: dataset
+- `Details about the Dataset.docx`: column descriptions
+- `Customer Personality Analysis.pptx`: project presentation
 
-3.	Launch the Streamlit app:
-    pip install -r requirements.txt
+## Conclusion
 
-4.  Conclusion
 
 	•	Preprocessing, feature engineering, and visualization are key to effective analysis.
  
 	•	Clustering models provide actionable customer segmentation.
  
 	•	The Streamlit app makes these insights accessible and interactive.
+
+## License
+
+Code is released under the [MIT License](LICENSE). Datasets keep their original source licences.
