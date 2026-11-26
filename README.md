@@ -1,5 +1,7 @@
 # Customer Personality Analysis and Segmentation
 
+> **Context:** Data science internship project at Ai Variant (2024–2025), built on a public dataset. Shared with no confidential company data.
+
 ## Overview
 This project analyzes customer behavior and spending patterns to segment customers into distinct groups. By leveraging clustering algorithms, we uncover actionable insights to enable:
 - Targeted marketing campaigns
